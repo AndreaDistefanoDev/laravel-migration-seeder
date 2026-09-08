@@ -1,0 +1,53 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra Blu in alto con il nome della stazione */
+.header-blu {
+    background-color: #000085;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Riga di ogni treno */
+.riga-treno {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border-bottom: 1px solid #222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Orario (Bianco) */
+.orario {
+    color: white;
+    width: 80px;
+}
+
+/* Destinazione (Giallo) */
+.destinazione {
+    color: #ffe600;
+    flex-grow: 1;
+}
+
+/* Stato e info a destra (Verde) */
+.info-verde {
+    color: #00ff44;
+    text-align: right;
+}
